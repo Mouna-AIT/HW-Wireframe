@@ -10,15 +10,13 @@ body {
     width: 960px;
     font-size: 18px;
     margin: auto;
-
   }
-  
+
   header {
     background: #ebebeb;
     padding: 25px;
     margin-bottom: 10px;
     width: 100%;
-   
   }
 
   nav {
@@ -34,26 +32,28 @@ body {
     float: right;
     width: 450px;
     height: 500px;
-    margin-left: 5px;
-   
+    margin-left: 5px;  
 }
-section {
+h1 {
+  margin: 6%;
+  }
+  section {
 
   background: #ebebeb;
   float: left;
   width: 500px;
   height: 500px;
   margin-right: 5px;
- 
 }
-
+h2 {
+  margin: 5%;
+}
 
 #article { 
     clear: both;
     color: #ebebeb;
     background: #777777; 
     padding: 40px;
-    margin-bottom: 10px;
     margin: 20px;
 
   }
@@ -64,8 +64,10 @@ section {
     background: #ebebeb;
     padding: 15px;
     margin-bottom: 10px;
-
   }
+  h3 {
+margin: 5%;
+}
 
   p {
 
@@ -77,11 +79,10 @@ section {
 
 footer {
     background: #ebebeb;
-    padding: 25px;
+    padding: 40px;
     margin-bottom: 10px;  
     position: absolute;
-    bottom: 2%;
-    width: 960px;
-          
+    bottom: 5.5%;
+    width: 960px;  
       }   
 
